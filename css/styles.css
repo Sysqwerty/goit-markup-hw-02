@@ -66,6 +66,10 @@ body {
 }
 
 /* Header */
+.header {
+  border-bottom: 1px solid var(--cornflower);
+}
+
 .logo {
   font-family: var(--second-family);
   font-weight: 800;
@@ -130,9 +134,48 @@ body {
 /* What are we doing */
 
 /* Our Team */
+.team {
+  background-color: var(--cloud);
+}
 
-/* Customers */
+.team-card {
+  text-align: center;
+  background-color: var(--white);
+  border-radius: 0px 0px 4px 4px;
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+}
 
 /* Footer */
+.footer {
+  background-color: var(--navy-blue);
+}
+
+.footer-logo,
+.footer-text {
+  color: var(--cloud);
+}
 
 /* Portfolio */
+/* Filters */
+.filter-btn {
+  background-color: var(--cloud);
+  color: var(--iris);
+  border: 1px solid var(--cornflower);
+}
+
+.filter-btn.active,
+.filter-btn:focus,
+.filter-btn:hover {
+  color: var(--white);
+  background-color: var(--ocean);
+  border-color: transparent;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12), 0 2px 1px 0 rgba(0, 0, 0, 0.08),
+    0 3px 1px 0 rgba(0, 0, 0, 0.1);
+}
+
+/* Projects */
+.project-card {
+  background-color: var(--white);
+  border: 1px solid var(--cornflower);
+}
